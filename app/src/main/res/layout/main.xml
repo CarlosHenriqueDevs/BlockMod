@@ -5,18 +5,18 @@
 
     <TextView
         android:text="@string/info"
-				android:background="#0035FE"
-				android:textColor="#00FE14"
+	android:background="#0035FE"
+	android:textColor="#00FE14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
-				android:id="@+id/btMake"
-				android:background="#00D2F8"
-				android:layout_marginTop="30dp"
-				android:layout_width="200dp"
-				android:layout_height="50dp"
-				android:layout_marginLeft="350dp"
-				android:text="Entrar no Studio" />
+	android:id="@+id/btMake"
+	android:background="#00D2F8"
+	android:layout_marginTop="30dp"
+	android:layout_width="200dp"
+	android:layout_height="50dp"
+	android:layout_marginLeft="350dp"
+	android:text="Entrar no Studio" />
 
 </LinearLayout>
