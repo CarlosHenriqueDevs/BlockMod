@@ -3,5 +3,12 @@
 
     <string name="app_name">BlockMod</string>
     <string name="hello_world">Hello world!</string>
+    <string name="info">
+	Este programa foi criado para facilitar a criação de mods, com ele você pode 
+	criar mods extremamente úteis e poderosos, você que ja sabe criar mods pode criar o código
+	automaticamente, você que não sabe criar,esta ferramenta irá te ajudar a criar e aprender
+	a criação de mods! Se você gostou, ou quer participar para melhorar o app siga-me
+	responderei todas as suas dúvidas, propostas, bugs!(@CarlosIdeScript)
+    </string>
 
 </resources>
