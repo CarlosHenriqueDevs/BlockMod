@@ -13,32 +13,32 @@ import android.content.Intent;
 
 public class MainActivity extends Activity 
 {
-	 @Override
-	 protected void onCreate(Bundle savedInstanceState)
+   @Override
+   protected void onCreate(Bundle savedInstanceState)
+   {
+      super.onCreate(savedInstanceState);
+      setContentView(R.layout.main);
+
+      Button startModelagem = (Button) findViewById(R.id.btMake);
+
+      startModelagem.setOnClickListener(new OnClickListener()
 	 {
-			super.onCreate(savedInstanceState);
-			setContentView(R.layout.main);
 
-			Button startModelagem = (Button) findViewById(R.id.btMake);
+	    @Override
+	    public void onClick(View p1)
+	    {
+	       Intent mod = new Intent(getApplicationContext(), ModStudio.class);
+	       startActivity(mod);
+	    }
 
-			startModelagem.setOnClickListener(new OnClickListener()
-				 {
+	 });
+   }
 
-						@Override
-						public void onClick(View p1)
-						{
-							 Intent mod = new Intent(getApplicationContext(), ModStudio.class);
-							 startActivity(mod);
-						}
+   public Drawable resize(Drawable image)
+   {
+      Bitmap b = ((BitmapDrawable)image).getBitmap();
+      Bitmap bitmapResized = Bitmap.createScaledBitmap(b, 50, 50, false);
 
-				 });
-	 }
-
-	 public Drawable resize(Drawable image)
-	 {
-			Bitmap b = ((BitmapDrawable)image).getBitmap();
-			Bitmap bitmapResized = Bitmap.createScaledBitmap(b, 50, 50, false);
-
-			return new BitmapDrawable(getResources(), bitmapResized);
-	 }
+      return new BitmapDrawable(getResources(), bitmapResized);
+   }
 }

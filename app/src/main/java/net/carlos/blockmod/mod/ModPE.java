@@ -23,12 +23,12 @@ public class ModPE
       public static final String GET_SCORE = "Player.getScore();";
       public static final String GET_NAME = "Player.getName(getPlayerEnt());";
    }
-   
+
    public class Level
    {
       public static final int SURVIVAL = 0;
       public static final int CREATIVE = 1;
-      
+
       public static final String GET_NAME = "Level.getAddress();";
       public static final String GET_GAMEMODE = "Level.getGameMode();";
    }

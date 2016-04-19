@@ -12,10 +12,10 @@ public class Item
       this.id = id;
       this.texture = texture;
    }
-   
+
    public Item(int id, String texture, String name, int damage)
    {
-      this (id, texture);
+      this(id, texture);
       this.name = name;
       this.damage = damage;
    }
@@ -64,7 +64,7 @@ public class Item
    public String toString()
    {
       return "Nome: " + name + "\nId: " + id + "\nDamage: " + damage + 
-             "Texture: " + texture;
+	 "Texture: " + texture;
    }
-   
+
 }

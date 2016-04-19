@@ -6,26 +6,26 @@ import android.view.View;
 
 public class ModStudio extends Activity
 {
-	 @Override
-	 protected void onCreate(Bundle savedInstanceState)
-	 {
-			// TODO: Implement this method
-			super.onCreate(savedInstanceState);
-			setContentView(R.layout.mod_studio);
-	 }
+   @Override
+   protected void onCreate(Bundle savedInstanceState)
+   {
+      // TODO: Implement this method
+      super.onCreate(savedInstanceState);
+      setContentView(R.layout.mod_studio);
+   }
 
-	 public void addItem(View v)
-	 {
-			
-	 }
+   public void addItem(View v)
+   {
 
-	 public void addVar(View v)
-	 {
-			
-	 }
+   }
 
-	 public void viewCode(View v)
-	 {
-			v.setBackgroundResource(R.drawable.background_pressed);
-	 }
+   public void addVar(View v)
+   {
+
+   }
+
+   public void viewCode(View v)
+   {
+      v.setBackgroundResource(R.drawable.background_pressed);
+   }
 }
