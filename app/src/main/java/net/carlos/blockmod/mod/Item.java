@@ -19,6 +19,11 @@ public class Item
       this.name = name;
       this.damage = damage;
    }
+   
+   public Item()
+   {
+      
+   }
 
    public void setId(int id)
    {
